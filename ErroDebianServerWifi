@@ -1,6 +1,3 @@
-Adicionei as seções explicando o erro técnico que aconteceu (para servir de aprendizado e registro no seu repositório) e também busquei no histórico a data em que começamos a configurar esse seu projeto de Homelab.
-
-```markdown
 # Transformando o Debian 13 (Trixie) em um Servidor Minimalista para Homelab
 
 Este repositório documenta o processo de conversão de uma instalação padrão do Debian 13 Desktop (com interface gráfica) em um servidor **Headless** (via terminal) otimizado para Homelab, mantendo o funcionamento da placa de rede Wi-Fi **Qualcomm Atheros QCA9377** em um notebook.
@@ -83,9 +80,3 @@ free -h
 *O consumo esperado pós-oficina deve girar entre **100MB e 150MB de RAM**, deixando praticamente 100% do hardware livre para Docker, containers e serviços do Homelab.*
 
 ---
-
-## 🚀 Próximos Passos Recomendados para o Homelab
-
-* [ ] Instalar o **Docker** e **Docker Compose** para orquestração de containers leves (Portainer, Jellyfin, Pi-hole).
-* [ ] Instalar o **Cockpit** (`sudo apt install cockpit`) para monitorar o notebook via navegador de outro computador.
-* [ ] Configurar o fechamento da tampa do notebook para que ele não entre em modo repouso/suspensão (`systemd` handles).
