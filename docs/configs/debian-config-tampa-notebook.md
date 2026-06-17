@@ -4,8 +4,8 @@
 | :--- | :--- |
 | **Infraestrutura:** | Homelab V1 |
 | **Data de Início:** | Abril de 2026 |
-| **Sistema Operacional:** | Debian 13 (Trixie) / Proxmox VE |
-| **Status da Bateria:** | Tampa configurada para IGNORE (Sucesso) |
+| **Sistema Operacional:** | Debian 13 (Trixie) |
+| **Status do Procedimento:** | Tampa configurada para IGNORE (Sucesso) |
 
 ---
 
