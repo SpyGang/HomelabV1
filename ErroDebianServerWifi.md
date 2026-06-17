@@ -1,4 +1,4 @@
-# Transformando o Debian 13 (Trixie) em um Servidor Minimalista para Homelab
+# Transformando o Debian 13 (Trixie) em um Servidor Minimalista para Homelab Mantendo as Funcionalidades do Wifi
 
 
 | Informações do Projeto | |
