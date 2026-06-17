@@ -1,4 +1,3 @@
-```markdown
 # 🐳 Docker: Loop de Inicialização e Status Unhealthy no Open WebUI
 
 | Informações do Projeto | |
