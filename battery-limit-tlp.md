@@ -1,4 +1,11 @@
-# 🔋 Configuração de Limite de Carga da Bateria para Homelab (Debian)
+# 🔋 Configuração de Limite de Carga da Bateria (Modo Conservação)
+
+| Informações do Projeto | |
+| :--- | :--- |
+| **Infraestrutura:** | Homelab V1 |
+| **Data de Início:** | Abril de 2026 |
+| **Sistema Operacional:** | Debian 13 (Trixie) |
+| **Status da Bateria:** | Limitada a 60% (Sucesso) |
 
 Este guia documenta o procedimento realizado para limitar a carga da bateria em um notebook transformado em servidor doméstico (**Homelab**) rodando **Debian 13 (Trixie)**. 
 

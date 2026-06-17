@@ -1,8 +1,14 @@
-# Transformando o Debian 13 (Trixie) em um Servidor Minimalista para Homelab
+# Transformando o Debian 13 (Trixie) em um Servidor Minimalista para Homelab Mantendo as Funcionalidades do Wifi
+
+
+| Informações do Projeto | |
+| :--- | :--- |
+| **Infraestrutura:** | Homelab V1 |
+| **Data de Início:** | Abril de 2026 |
+| **Sistema Operacional:** | Debian 13 (Trixie) |
+| **Placa de Rede:** | Qualcomm Atheros QCA9377 |
 
 Este repositório documenta o processo de conversão de uma instalação padrão do Debian 13 Desktop (com interface gráfica) em um servidor **Headless** (via terminal) otimizado para Homelab, mantendo o funcionamento da placa de rede Wi-Fi **Qualcomm Atheros QCA9377** em um notebook.
-
-**Início do Projeto:** Abril de 2026
 
 ---
 
