@@ -1,0 +1,37 @@
+services:
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - ${OLLAMA_PORT}:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    mem_limit: 6g
+    networks:
+      - labnet
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: unless-stopped
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    ports:
+      - ${WEBUI_PORT}:8080
+    volumes:
+      - webui_data:/app/backend/data
+    depends_on:
+      - ollama
+    mem_limit: 1g
+    networks:
+      - labnet
+
+volumes:
+  ollama_data:
+  webui_data:
+
+networks:
+  labnet:
+    external: true
