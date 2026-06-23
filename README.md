@@ -60,7 +60,6 @@ A manutenção contínua deste Homelab me proporcionou sólida experiência prá
 * **Sysadmin & Linux Avançado:** Administração profunda do Debian (systemd, gerenciamento de pacotes apt, análise fina de logs com `journalctl`, gerenciamento de armazenamento e permissões POSIX).
 * **Cultura DevOps / IaC:** Pensamento modular voltado a contêineres, ciclo de vida do Docker, persistência segura de volumes, criação de redes isoladas e escrita de arquivos `docker-compose.yml` otimizados e reutilizáveis.
 * **Princípios de SRE (Site Reliability Engineering):** Definição de métricas de saúde de sistemas, monitoramento proativo, visualização de dados complexos com Grafana e estabelecimento de rotinas de alertas de incidentes.
-* **Arquitetura de Redes e Cibersegurança:** Compreensão prática de redes sobrepostas (Mesh VPNs), roteamento interna de proxies reversos, gerenciamento de certificados SSL/TLS e blindagem de servidores contra varreduras de portas externas.
 
 ---
 *Nota: Este projeto reflete a minha paixão por tecnologia, capacidade de autoaprendizado e a habilidade de projetar sistemas complexos auto-hospedados utilizando as melhores práticas do mercado corporativo.*
