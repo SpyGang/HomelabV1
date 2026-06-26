@@ -13,7 +13,7 @@ services:
       - APP_URL=http://100.86.217.115:9119
       - DB_CONNECTION=sqlite
       - SPEEDTEST_SCHEDULE=0 * * * *
-      - SPEEDTEST_SERVERS=58812,58812,58812
+      - SPEEDTEST_SERVERS=58812
       - DISPLAY_TIMEZONE=America/Recife
       - PRUNE_RESULTS_OLDER_THAN=14 
     volumes:
